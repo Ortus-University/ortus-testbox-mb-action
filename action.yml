@@ -13,7 +13,7 @@ runs:
   args:
     - ${{ inputs.cfml-engine }}
   env:
-    lucee_extensions: 37C61C0A-5D7E-4256-8572639BE0CF5838
+    LUCEE_EXTENSIONS: 37C61C0A-5D7E-4256-8572639BE0CF5838
 branding:
   icon: 'award'
   color: 'green'
